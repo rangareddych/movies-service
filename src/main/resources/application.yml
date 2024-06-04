@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://movies-user:movies-user@movies-cluster.xyybqwn.mongodb.net/?retryWrites=true&w=majority&appName=movies-cluster
+      uri: MONDB-URL
       database: Movies
   mvc:
     pathmatch:
@@ -10,8 +10,8 @@ spring:
 cloud:
   aws:
     credentials:
-      access-key: AKIAQABNDOJ2WTTFNXOJ
-      secret-key: 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
+      access-key: AWS-ACCESS-KEY
+      secret-key: AWS-SECRET-KEY
     region:
       static: us-east-1
     static:
