@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://movies-user:movies-user@movies-cluster.xyybqwn.mongodb.net/?retryWrites=true&w=majority&appName=movies-cluster
+      database: Movies
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQABNDOJ2WTTFNXOJ
+      secret-key: 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
+    region:
+      static: us-east-1
+    static:
+      auto: false
+
+application:
+  bucket:
+    name: movies-bucket-swamy
